@@ -14,4 +14,4 @@ with open("sistema.log", encoding="utf-8") as f:
         if "CRITICAL" in rinda:
             skaits = skaits + 1
 
-print("CRITICAL rindas:", skaits)
+print("Kopā:", skaits)
