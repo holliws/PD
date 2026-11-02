@@ -14,11 +14,10 @@ with open("sistema.log", encoding="utf-8") as file:
     for rinda in file:
         limenis = rinda.split()[2]
         if limenis not in skaits:
-          skaits[limenis] = 0
-        else:
-          skaits[limenis] +=1
+            skaits[limenis] = 0
+        skaits[limenis] +=1
     sorted_skaits = dict(sorted(skaits.items(), key=lambda item: item[1], reverse=True))
-  print("Limenu kopsavilkums",sorted_skaits)
+    print("Limenu kopsavilkums",sorted_skaits)
 
         # TODO: pieskaiti vienu šim līmeni
 # TODO: izvadi sakārtotus no lielākā uz mazāko
