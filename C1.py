@@ -11,7 +11,7 @@ with open("sistema.log", encoding="utf-8") as file:
     y = 2
     count = 0
     if x == '':
-      print("dont do that")
+      print("hue sos")
       sys.exit()
     for rinda in file:
       if x and "ERROR" in rinda:
