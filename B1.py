@@ -18,7 +18,7 @@ with open("sistema.log", encoding="utf-8") as file:
         else:
           skaits[limenis] +=1
     sorted_skaits = dict(sorted(skaits.items(), key=lambda item: item[1], reverse=True))
-  print(sorted_skaits)
+  print("Limenu kopsavilkums",sorted_skaits)
 
         # TODO: pieskaiti vienu šim līmeni
 # TODO: izvadi sakārtotus no lielākā uz mazāko
