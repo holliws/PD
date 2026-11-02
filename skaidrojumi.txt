@@ -1,0 +1,2 @@
+J1. es apskatītos filtrus un sorting veidu.
+J2. nepareizs simbols tika izmantots lai atdalītu kolonnas
