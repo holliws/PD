@@ -3,4 +3,5 @@ $apturetie = Get-Service |
     Sort-Object Name |
     Select-Object Name, Status |
 $apturetie |Export-Csv -Path -NotypeInformation
+Write-Host"fails gatavs"
 
